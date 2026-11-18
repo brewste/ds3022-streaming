@@ -123,7 +123,7 @@ def chart():
     plt.yticks(range(len(top_langs)), lang_labels)
     plt.xlabel("Post length (characters)")
     plt.ylabel("Language")
-    plt.title("Distribution of Bluesky post lengths by language")
+    plt.title("Distribution of Bluesky post lengths by language (Nov 5 - 12, 2026)")
 
     # Add percentages inside each square
     for i in range(len(top_langs)):
